@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.logo {
+    font-size: 2rem;
+    text-align: center;
+    line-height: var(--logo-height);
+    height: var(--logo-height);
+    margin: 0;
+
+    & > a{
+        text-decoration: none;
+    }
+}

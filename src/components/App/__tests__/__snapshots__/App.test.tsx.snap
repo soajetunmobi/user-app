@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders correctly 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <div
+      className="logo"
+    >
+      <span
+        className="cursor--pointer"
+        data-testid="logo-link"
+        onClick={[Function]}
+      >
+        User App
+      </span>
+    </div>
+    <div>
+      <span
+        className="cursor--pointer"
+        data-testid="login-link"
+        onClick={[Function]}
+      >
+        Login |
+         
+      </span>
+      <span
+        className="cursor--pointer"
+        onClick={[Function]}
+      >
+        Profile
+      </span>
+    </div>
+  </div>,
+  <main
+    className="content"
+  >
+    <div>
+      <div
+        className="text-align--center"
+      >
+        <h4
+          data-testid="login-welcome"
+        >
+          Welcome, please login to access your profile
+        </h4>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+          data-testid="login-button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Login
+          </span>
+        </button>
+      </div>
+    </div>
+  </main>,
+  <footer
+    className="footer"
+  >
+    <span>
+      User App
+    </span>
+    <br />
+    2020
+  </footer>,
+]
+`;

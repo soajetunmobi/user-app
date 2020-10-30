@@ -1,0 +1,17 @@
+export const MOCKED_USER = {
+  id: '1',
+  first_name: 'Jon',
+  other_names: 'Williams',
+  address: {
+    street: '1 Mill Street',
+    town: 'Northampton',
+    county: 'Northamponshire',
+    postcode: 'NU7 JK8'
+  },
+  mobile: '08982 92829',
+  email: 'jwlll@gmail.com',
+  company: 'Xerini',
+  preferences: {
+    contact: ['mail', 'sms']
+  }
+}

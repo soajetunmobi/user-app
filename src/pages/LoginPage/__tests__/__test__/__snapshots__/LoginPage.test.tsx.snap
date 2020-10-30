@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage renders LoginPage correctly 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <form
+    action="#"
+    data-testid="login-form"
+    onReset={[Function]}
+    onSubmit={[Function]}
+  >
+    <h1
+      className="makeStyles-title-4"
+    >
+      Login up
+    </h1>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-around"
+    >
+      <div
+        className="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+            data-shrink={false}
+            htmlFor="username"
+            id="username-label"
+          >
+            Username
+          </label>
+          <div
+            className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-describedby="username-helper-text"
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiInput-input"
+              disabled={false}
+              id="username"
+              name="username"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="email"
+              value=""
+            />
+          </div>
+          <p
+            className="MuiFormHelperText-root"
+            id="username-helper-text"
+          >
+            Enter username
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+      >
+        <div
+          className="MuiFormControl-root MuiTextField-root"
+        >
+          <label
+            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+            data-shrink={false}
+            htmlFor="password"
+            id="password-label"
+          >
+            Password
+          </label>
+          <div
+            className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+            onClick={[Function]}
+          >
+            <input
+              aria-describedby="password-helper-text"
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInputBase-input MuiInput-input"
+              disabled={false}
+              id="password"
+              name="password"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="password"
+              value=""
+            />
+          </div>
+          <p
+            className="MuiFormHelperText-root"
+            id="password-helper-text"
+          >
+            Enter password
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root makeStyles-submitButton-3 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="submit"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Submit
+          </span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

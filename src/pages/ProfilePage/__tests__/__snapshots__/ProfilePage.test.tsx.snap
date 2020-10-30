@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfilePage profile page is rendered 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="makeStyles-root-1"
+      data-testid="profile-view"
+    >
+      <h1
+        class="makeStyles-title-4"
+      >
+        Profile - View
+      </h1>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-around"
+      >
+        <div
+          class="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+        >
+          <span>
+            Firstname:
+          </span>
+          <span
+            data-testid="profile-firstname"
+          >
+            Jon
+          </span>
+        </div>
+        <div
+          class="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+        >
+          <span>
+            Other names:
+          </span>
+          <span
+            data-testid="profile-othernames"
+          >
+            Williams
+          </span>
+        </div>
+        <div
+          class="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+        >
+          <span>
+            Address:
+          </span>
+          <div>
+            <div>
+              Street: 1 Mill Street
+            </div>
+            <div>
+              Town: Northampton
+            </div>
+            <div>
+              County: Northamponshire
+            </div>
+            <div>
+              Postcode: NU7 JK8
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+        >
+          <span>
+            Mobile:
+          </span>
+          <span>
+            08982 92829
+          </span>
+        </div>
+        <div
+          class="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+        >
+          <span>
+            Email:
+          </span>
+          <span>
+            08982 92829
+          </span>
+        </div>
+        <div
+          class="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+        >
+          <span>
+            Company:
+          </span>
+          <span>
+            Xerini
+          </span>
+        </div>
+        <div
+          class="MuiGrid-root makeStyles-textField-2 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+        >
+          <span>
+            Preferences:
+          </span>
+          <div>
+            <span>
+              mail
+            </span>
+            <span>
+              sms
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root makeStyles-submitButton-3 MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-10"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary"
+            data-testid="profile-cancel-button"
+            tabindex="0"
+            type="submit"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Cancel
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+            data-testid="profile-edit-button"
+            tabindex="0"
+            type="submit"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Edit
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
